@@ -1,0 +1,61 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (raw data stays local, not on GitHub)
+data/raw/
+data/processed/
+
+# Models (large binary files)
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Reports output (auto-generated)
+reports/figures/*.png
+reports/figures/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kaggle credentials
+kaggle.json
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+.tmp/
