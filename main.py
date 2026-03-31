@@ -32,7 +32,7 @@ def main():
     # Step 3: Train
     print("\n[3/4] Training models...")
     results = train_all(df_clean)
-    print("\n── Model Results ──────────────────────────────────")
+    print("\n-- Model Results ------------------------------------------")
     print(results.to_string(index=False))
 
     # Step 4: Evaluate
